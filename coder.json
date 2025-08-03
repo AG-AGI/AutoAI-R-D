@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Towards Autonomous Polymorphic Code Generation via Reinforcement Learning",
+    "description": "This paper introduces a reinforcement learning (RL) approach to autonomous polymorphic code generation. An RL agent learns to generate code snippets in various languages (Python, JavaScript, C++, Java) based on a high-level description, trained in a simulated environment with rewards for correctness and efficiency. Code examples include basic arithmetic operations implemented in each language. The results show the framework's ability to generate efficient and correct code for benchmark tasks, offering improvements over template-based methods."
+  },
+  {
+    "title": "Neuro-Symbolic Fusion for Enhanced Program Synthesis from Natural Language",
+    "description": "This paper introduces a neuro-symbolic approach to program synthesis, combining LLMs for initial code generation with symbolic execution and constraint solving for refinement. It addresses limitations of purely neural methods in handling complex instructions. Examples include Python factorial function refinement and C++ geometric calculation, demonstrating improved accuracy in generating code with numerical reasoning."
+  },
+  {
+    "title": "Evolutionary Optimization of Neural Network Architectures for Resource-Constrained Edge Devices",
+    "description": "This paper explores the use of evolutionary algorithms for optimizing neural network architectures specifically for resource-constrained edge devices. It introduces a genetic encoding scheme, an evolutionary algorithm, and a fitness function that balances accuracy and resource consumption (parameters and FLOPs). Experiments on CIFAR-10 show the evolved architectures achieve comparable accuracy to manually designed models (MobileNetV2, ShuffleNet) with significantly reduced resource requirements. Python code is included to demonstrate how to measure model complexity."
+  },
+  {
+    "title": "Adaptive Loss Scaling with Dynamic Gradient Clipping for Enhanced Training of Deep Neural Networks",
+    "description": "This paper introduces ALSDGC, an algorithm that dynamically adjusts loss scaling factor and gradient clipping threshold based on real-time monitoring of gradient norms and loss values. The method adaptively modifies these parameters, resulting in more stable and efficient training. Code examples are provided in Python and C++ to illustrate the update rules for loss scaling and gradient clipping. ALSDGC demonstrates improved convergence speed and generalization performance compared to conventional methods."
+  },
+  {
+    "title": "Differentiable Search Space Pruning for Efficient Neural Architecture Search",
+    "description": "This paper introduces Differentiable Search Space Pruning (DSSP), a method that combines differentiable NAS with structured pruning to dynamically reduce the search space during training. It utilizes learnable pruning masks and regularization to encourage sparsity, leading to faster convergence and improved performance. Code examples are included to illustrate the pruning mechanism, including a Python example using `torch.nn.Parameter` and a C++ example using Eigen to showcase matrix pruning. DSSP is shown to reduce computational costs while maintaining competitive accuracy in NAS tasks."
+  },
+  {
+    "title": "Attention-Gated Recurrent Kalman Filtering for Enhanced Time Series Forecasting",
+    "description": "This paper introduces AGRKF, a novel architecture for time series forecasting that combines RNNs, Kalman filtering, and attention mechanisms. The model uses an RNN to learn temporal dependencies, a Kalman filter for state estimation and uncertainty quantification, and attention to dynamically weight relevant time steps. A Python code snippet using PyTorch showcases the model's key components. Experiments show AGRKF outperforms standard RNNs and Kalman filters on benchmark datasets."
+  },
+  {
+    "title": "Meta-Learning Guided Architecture Adaptation for Continual Learning in Resource-Constrained Environments",
+    "description": "This paper presents Meta-Learning Guided Architecture Adaptation (MeLAA), a framework for continual learning (CL) in resource-constrained settings. It uses a meta-controller, trained via meta-learning, to predict optimal network architectures for new tasks, considering resource budgets. The architecture is adapted using pruning and growth strategies. Python code demonstrates the meta-controller, and pruning mechanism. C++ shows the growth by adding new neurons."
+  },
+  {
+    "title": "Cross-Modal Attention Fusion with Differentiable Knowledge Distillation for Enhanced Low-Resource Machine Translation",
+    "description": "This paper introduces a novel cross-modal attention fusion with differentiable knowledge distillation (CAF-DKD) framework for low-resource machine translation.  It fuses visual and textual representations via a cross-modal attention mechanism in the encoder and uses differentiable knowledge distillation to transfer knowledge from a high-resource teacher model to a low-resource student model. Python code snippets demonstrate the cross-modal attention mechanism and the knowledge distillation loss calculation. The experiments show that the CAF-DKD framework can significantly improve MT performance in low-resource scenarios."
+  },
+  {
+    "title": "Dynamic Sparsification via Reinforcement Learning for Efficient Transformer Training",
+    "description": "This paper introduces DSRL, a reinforcement learning approach for dynamically adjusting the sparsity pattern of Transformer layers during training.  An RL agent learns to sparsify layers based on the training state, minimizing computation while maintaining accuracy.  The reward function balances accuracy change and FLOPs reduction.  Python code examples demonstrate the masking procedure and RL action application."
+  },
+  {
+    "title": "Adaptive Kernel Modulation for Enhanced Generalization in Deep Neural Networks",
+    "description": "This paper introduces Adaptive Kernel Modulation (AKM), a novel technique that dynamically adjusts convolutional kernel characteristics using learnable modulation parameters, guided by a meta-learning objective. AKM controls the receptive field and feature selectivity, encouraging robust and generalizable features.  A PyTorch implementation demonstrates the AKM layer, while a C++ example showcases gaussian kernel smoothing using Eigen.  Experiments show improved generalization across various datasets."
+  },
+  {
+    "title": "ProtoGen: Probabilistic Generation and Optimization of Neural Network Topology Using a Learned Prior",
+    "description": "This paper introduces ProtoGen, a novel NAS method that leverages a learned probabilistic prior to guide architecture generation and optimization. A variational autoencoder (VAE) is trained on successful neural network architectures, and its latent space is sampled to generate candidate architectures. A gradient-based optimization strategy refines these architectures, resulting in high-performing networks with reduced computational cost. Python code demonstrates CUDA with pytorch for fast calculation, while C++ shows large network processing."
+  },
+  {
+    "title": "Cascade-Attention Networks with Differentiable Sparsity for Resource-Efficient Large Language Models",
+    "description": "This paper introduces Cascade-Attention Networks with Differentiable Sparsity (CANDS), a new architecture for resource-efficient LLMs. CANDS uses a cascade of attention layers with learnable sparsity masks to reduce FLOPs and parameter count. Python and C++ code examples demonstrate key components of the architecture, showcasing the differentiable sparsity mechanism and its application to attention layers. Experiments show CANDS achieves comparable performance to dense Transformers with significant resource reductions."
+  }
+]

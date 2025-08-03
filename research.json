@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Meta-Learning with Differentiable Neural Architecture Search for Personalized Federated Learning",
+    "description": "This paper introduces Meta-DNAS, a novel Personalized Federated Learning framework combining meta-learning and differentiable neural architecture search. It leverages a global meta-learner to learn a shared architecture search space, enabling clients to adapt architectures locally. Experiments demonstrate significant improvements in personalization accuracy and convergence speed compared to existing methods. This approach effectively addresses data heterogeneity and device-specific characteristics in federated learning environments."
+  },
+  {
+    "title": "Federated Learning with Graph Neural Network Guided Architecture Adaptation for Communication-Constrained Edge Devices",
+    "description": "This paper introduces FedGNA, a federated learning framework using Graph Neural Networks (GNNs) to adapt neural network architectures on resource-limited edge devices. FedGNA constructs a knowledge graph of neural network layers, and a GNN-based controller predicts efficient architectures based on device constraints. The GNN is trained federatedly to share knowledge. Experiments demonstrate improved accuracy and communication efficiency compared to existing methods."
+  },
+  {
+    "title": "Continual Federated Learning with Dynamic Model Expansion and Knowledge Distillation",
+    "description": "This paper introduces CFED-DKD, a framework that tackles catastrophic forgetting in federated learning by dynamically expanding the model architecture and using knowledge distillation.  When new data distributions are detected, a new subnetwork is created. Knowledge from these specialized subnetworks is then transferred to a consolidated global model, improving adaptability.  Experiments demonstrate superior performance compared to existing federated and continual learning methods."
+  },
+  {
+    "title": "Privacy-Preserving Federated Learning with Noisy Gradient Aggregation and Differential Privacy for Model Robustness Against Poisoning Attacks",
+    "description": "This paper proposes a novel federated learning framework that combines noisy gradient aggregation with differential privacy (DP) to enhance model robustness against poisoning attacks.  A tailored noise injection mechanism is introduced during gradient aggregation to obfuscate malicious updates, while DP is incorporated at the model update step to protect against inference attacks. The framework improves model robustness against poisoning attacks while preserving privacy and maintaining competitive accuracy on benchmark datasets."
+  },
+  {
+    "title": "Hybrid Federated Learning with Generative Adversarial Networks for Enhanced Data Augmentation and Privacy Preservation in Medical Imaging",
+    "description": "This paper introduces Hybrid Federated GANs (HF-GAN), a novel federated learning framework leveraging GANs for enhanced data augmentation and differential privacy in medical imaging. HF-GAN combines a central federated discriminator with local generators, training them to synthesize realistic images, addressing data scarcity and heterogeneity. Differential privacy mechanisms are implemented during GAN training to protect against reconstruction attacks. Experiments on medical imaging datasets show HF-GAN improves accuracy and robustness compared to traditional FL while bolstering privacy."
+  },
+  {
+    "title": "Towards Interpretable Federated Learning: Explaining Global Model Decisions with Local Attributions",
+    "description": "This paper introduces Explainable Federated Learning (XFL), a framework that explains global FL model predictions by attributing them to local client contributions. XFL combines gradient-based attribution methods with a novel client-aware aggregation scheme, preserving client-specific attribution information. This enables the identification of influential clients and understanding of how local data impacts global model behavior, promoting transparency and trust in FL systems."
+  },
+  {
+    "title": "Federated Learning with Privacy-Preserving Knowledge Transfer via Contrastive Representation Learning",
+    "description": "This paper introduces FedCRL, a federated learning framework that utilizes contrastive representation learning for privacy-preserving knowledge transfer. Local encoders generate client-specific representations, contrasted against a global representation space. This enables clients to learn from global knowledge without revealing data, improving model generalization and personalization while maintaining privacy. Experiments demonstrate FedCRL's effectiveness in accuracy, robustness, and privacy compared to existing FL methods."
+  },
+  {
+    "title": "Federated Reinforcement Learning with Curriculum-Based Training for Autonomous Driving",
+    "description": "This paper introduces CB-FRL, a novel federated reinforcement learning framework that leverages curriculum learning for autonomous driving. The system dynamically adapts the difficulty of driving scenarios based on client performance, addressing data heterogeneity and varying environmental complexities. Experimental results demonstrate improved convergence, safety, and generalization compared to traditional FRL methods."
+  },
+  {
+    "title": "FedPruneShare: Secure and Efficient Federated Learning with Model Pruning and Secret Sharing",
+    "description": "This paper introduces FedPruneShare, a federated learning framework combining model pruning and secret sharing for enhanced efficiency and security. Model pruning reduces communication overhead by removing less important parameters, while secret sharing distributes model updates across multiple servers, mitigating single-point compromise risks and improving privacy. Experiments show that FedPruneShare achieves similar accuracy to standard FL, with significant communication savings and better robustness against poisoning attacks."
+  },
+  {
+    "title": "Federated Learning with Hierarchical Clustering for Personalized Model Aggregation",
+    "description": "This paper introduces FedHC, a novel federated learning framework that utilizes hierarchical clustering for personalized model aggregation. FedHC dynamically groups clients based on model similarity, forming a hierarchy reflecting the data structure. Aggregation within each cluster allows for specialized and personalized models. The experiments demonstrate FedHC's effectiveness in enhancing accuracy, personalization, and robustness against malicious clients compared to traditional FL methods."
+  },
+  {
+    "title": "FedMRL-EPA: Federated Meta-Reinforcement Learning with Evolutionary Policy Adaptation for Heterogeneous Robotic Swarms",
+    "description": "This paper introduces FedMRL-EPA, a novel federated learning framework for training heterogeneous robotic swarms. It combines meta-learning, federated learning, and evolutionary policy adaptation. Meta-learning establishes a shared policy prior, federated learning enables decentralized training, and evolutionary policy adaptation addresses heterogeneity. Experiments show improved convergence, personalization, and robustness compared to traditional methods."
+  },
+  {
+    "title": "Federated Learning with Attention-Guided Knowledge Distillation for Imbalanced Data",
+    "description": "This paper introduces FedAKD, a federated learning framework leveraging attention-guided knowledge distillation to address data imbalance across clients. Local attention mechanisms identify crucial data features, enabling the global model to learn a balanced representation. Knowledge distillation then transfers valuable information from local models to the global one, compensating for data scarcity in minority classes. Experiments on benchmark datasets showed that FedAKD improves performance on imbalanced data while preserving privacy and communication efficiency."
+  },
+  {
+    "title": "FairFL-DPXAI: Federated Learning with Differential Privacy and Explainable AI for Fairness-Aware Resource Allocation",
+    "description": "This paper introduces FairFL-DPXAI, a federated learning framework that integrates client-specific differential privacy, explainable AI for fairness assessment, and fairness-aware resource allocation. It dynamically adjusts DP noise injection and client participation based on data distributions and contribution to fairness. Experiments show improved fairness, accuracy, and privacy compared to existing FL methods."
+  }
+]
